@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetingRoomSolver", "MeetingRoomSolver.csproj", "{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsForSolver", "..\TestsForSolver\TestsForSolver.csproj", "{677D5407-80AC-4FED-BC8E-E631BC659019}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF} = {E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50C454C-A4D5-4DB9-BCF3-FFF99FD3B3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677D5407-80AC-4FED-BC8E-E631BC659019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677D5407-80AC-4FED-BC8E-E631BC659019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677D5407-80AC-4FED-BC8E-E631BC659019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677D5407-80AC-4FED-BC8E-E631BC659019}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAC829EF-C821-4BB2-BCC1-D9AF6C38C12C}
+	EndGlobalSection
+EndGlobal
